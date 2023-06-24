@@ -1,0 +1,159 @@
+*{
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-size: cover;
+    background-position: top;
+    font-family: Times new Roman;
+    height: 3cm;
+}
+
+.menu-bar
+{ 
+    text-align: center;
+    font-size: x-large;
+    background-color: black;
+
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    text-align: center;
+}
+
+.menu-bar ul li
+{
+    width: 200px;
+    height: 100px;
+    padding: 1cm;
+}
+
+.aboutme
+{
+    padding: 1cm;
+    display: flex;
+    height: 17cm;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+.education
+{
+    display: flex;
+    height: 17cm;
+    background-color: lightgray;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project
+{
+    display: flex;
+    height: 18cm;
+    background-color: darkgray;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactme
+{   
+    padding: 9cm;
+    display: flex;
+    height: 17cm;
+    flex-direction: row;
+    background-color: lightgray;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.certification
+{
+   
+    display: flex;
+    height: 17cm;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    image-rendering: 12cm;
+}
+
+img
+{
+    cursor: pointer;
+    margin: 1cm;
+    width: 300px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px;
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+  
+.home
+{
+    display: flex;
+    height: 17cm;
+    background-color: lightgray;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.timetable
+{
+    display: flex;
+    height: 17cm;
+    background-color: darkgray;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.form
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
