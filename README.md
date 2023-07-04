@@ -1,2 +1,2 @@
 # Riddhi
-This is my Portfolio
+Hey!! I'm Riddhi Dethe
